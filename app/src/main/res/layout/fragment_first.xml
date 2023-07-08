@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="test"
+            android:text="Time for notification to display"
             android:id="@+id/test"/>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

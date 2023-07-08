@@ -97,9 +97,9 @@ class FirstFragment : Fragment() {
                 // Update UI or perform any desired action with the remaining seconds
                 val test : TextView = view!!.findViewById(R.id.test)
                 test.text = "TimeRemaining : "+ remainingSeconds.toString()
-                Toast.makeText(view?.context, remainingSeconds.toString(), Toast.LENGTH_SHORT).show()
+//                Toast.makeText(view?.context, remainingSeconds.toString(), Toast.LENGTH_SHORT).show()
                 if(remainingSeconds == 0L){
-                    Toast.makeText(view?.context, "Playing", Toast.LENGTH_SHORT).show()
+//                    Toast.makeText(view?.context, "Playing", Toast.LENGTH_SHORT).show()
                     playNotification()
                 }
                 println("Remaining seconds: $remainingSeconds")
